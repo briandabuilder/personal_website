@@ -1,23 +1,22 @@
+/* WHOLE WEBSITE START */
+
 body {
   background-color: #b2d3c2;
 }
 
-.nav-items {
-  left: 50%;
-}
+/* WHOLE WEBSITE */
+
+/* NAVBAR START */
 
 .nav-link-item {
   color: #fff;
+  display: flex;
   font-family: "Quicksand", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-left: 200px;
+  margin-left: 150px;
   text-decoration: none;
   position: relative;
-}
-
-.nav-link-item:last-child {
-  padding-right: 20px;
 }
 
 .special-item {
@@ -30,7 +29,7 @@ body {
   background-color: white;
   height: 3px;
   width: 0;
-  right: -10px;
+  right: 1px;
   bottom: -5px;
   transition: 0.5s;
 }
@@ -39,10 +38,119 @@ body {
   width: 40%;
 }
 
-@media (max-width: 1000px) {
-  .collapsed-items {
+@media (min-width: 1400px) {
+  .special-item {
     position: relative;
-    right: 45%;
+    left: 375px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .special-item {
+    position: relative;
+    left: 200px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .special-item {
+    position: relative;
+    left: 100px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1099px) {
+  .special-item {
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 999px) {
+  .special-item {
+    position: relative;
+    left: -120px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+  .special-item {
+    position: relative;
+    left: -200px;
+  }
+}
+
+
+@media (min-width: 767px) and (max-width: 799px) {
+  .special-item {
+    position: relative;
+    left: -180px;
+  }
+}
+
+@media (max-width: 799px) {
+  .special-item::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    right: 1px;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  .special-item:hover::after {
+    width: 0;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 767px) {
+  .special-item {
+    position: relative;
+    left: -270px;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 764px) {
+  .special-item {
+    position: relative;
+    left: -200px;
   }
 
+  .nav-link-item {
+    margin-left: 100px;
+  }
 }
+
+@media (min-width: 600px) and (max-width: 659px) {
+  .special-item {
+    position: relative;
+    left: -100px;
+  }
+
+  .nav-link-item {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 599px) {
+  .special-item {
+    position: relative;
+    left: -85px;
+  }
+
+  .nav-link-item {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 549px) {
+  .nav-link-item {
+    text-align: center;
+  }
+}
+
+
+
+
+/* NAVBAR END */

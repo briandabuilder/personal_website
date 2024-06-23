@@ -9,16 +9,17 @@ function NavBar() {
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="collapsed-items">
-                        <Nav className="ml-auto nav-iftems">
-                            <div className="special-item">
-                            <Nav.Link href="https://github.com/yourusername" className="nav-link-item">Github</Nav.Link>
+                        <Nav className="ml-auto">
+                            <div className="special-item p-1 mx-4">
+                                <Nav.Link href="https://github.com/yourusername" className="nav-link-item">Github</Nav.Link>
                             </div>
-                            <div className="special-item">
-                            <Nav.Link href="https://linkedin.com/in/yourusername" className="nav-link-item">LinkedIn</Nav.Link>
+                            <div className="special-item p-1 mx-4">
+                                <Nav.Link href="https://linkedin.com/in/yourusername" className="nav-link-item">LinkedIn</Nav.Link>
                             </div>
-                            <div className="special-item">
-                            <Nav.Link href="/resume.pdf" className="nav-link-item">Resume</Nav.Link>
+                            <div className="special-item p-1 mx-4">
+                                <Nav.Link href="/resume.pdf" className="nav-link-item">Resume</Nav.Link>
                             </div>
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
