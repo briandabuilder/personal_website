@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavBar, Summary, Cup } from './index';
+import NavBar from './NavBar';
+import Content from './Content';
 
 function Website() {
     return (
         <div>
             <NavBar />
-            <Summary />
-            <Cup />
+            <Content />
         </div>
     )
 }
