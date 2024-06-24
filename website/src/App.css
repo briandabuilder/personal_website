@@ -150,7 +150,26 @@ body {
   }
 }
 
-
-
-
 /* NAVBAR END */
+
+/* SUMMARY START */
+.summary-section {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.summary-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.boba {
+  height: 60px;
+  width: 60px;
+}
+/* SUMMARY END */
