@@ -11,10 +11,10 @@ function NavBar() {
                     <Navbar.Collapse id="responsive-navbar-nav" className="collapsed-items">
                         <Nav className="ml-auto">
                             <div className="special-item p-1 mx-4">
-                                <Nav.Link href="https://github.com/yourusername" className="nav-link-item">Github</Nav.Link>
+                                <Nav.Link href="https://github.com/briandabuilder" className="nav-link-item">Github</Nav.Link>
                             </div>
                             <div className="special-item p-1 mx-4">
-                                <Nav.Link href="https://linkedin.com/in/yourusername" className="nav-link-item">LinkedIn</Nav.Link>
+                                <Nav.Link href="https://www.linkedin.com/in/brian-da-cruz-25a086218" className="nav-link-item">LinkedIn</Nav.Link>
                             </div>
                             <div className="special-item p-1 mx-4">
                                 <Nav.Link href="/resume.pdf" className="nav-link-item">Resume</Nav.Link>
