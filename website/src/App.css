@@ -1,7 +1,7 @@
 /* WHOLE WEBSITE START */
 
 body {
-  background-color: #b2d3c2;
+  background-color: #70ae61;
 }
 
 /* WHOLE WEBSITE */
@@ -173,3 +173,176 @@ body {
   width: 60px;
 }
 /* SUMMARY END */
+
+/* BOBA START */
+.boba-cup {
+  height: 800px;
+  width: 800px;
+  position: relative;
+  left: 650px;
+}
+
+.boba-section {
+  position: absolute;
+  left: 920px;
+  bottom: 80px;
+
+}
+
+.boba-pearl {
+  height: 50px;
+  width: 50px;
+  margin: 20px 20px 20px 20px;
+}
+
+/* Unique animations for each boba pearl */
+.pearl1 {
+  animation: move1 10s infinite alternate;
+}
+
+.pearl2 {
+  animation: move2 8s infinite alternate;
+}
+
+.pearl3 {
+  animation: move3 5s infinite alternate;
+}
+
+.pearl4 {
+  animation: move4 9s infinite alternate;
+}
+
+.pearl5 {
+  animation: move5 7s infinite alternate;
+}
+
+.pearl6 {
+  animation: move6 6s infinite alternate;
+}
+
+@keyframes move1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(3px, -3px);
+  }
+  40% {
+    transform: translate(-3px, 3px);
+  }
+  60% {
+    transform: translate(3px, 3px);
+  }
+  80% {
+    transform: translate(-3px, -3px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(2px, -2px);
+  }
+  60% {
+    transform: translate(-2px, -2px);
+  }
+  80% {
+    transform: translate(2px, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(4px, 4px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, -2px);
+  }
+  80% {
+    transform: translate(-2px, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-2px, -2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move5 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(1px, -1px);
+  }
+  40% {
+    transform: translate(-1px, 1px);
+  }
+  60% {
+    transform: translate(1px, 1px);
+  }
+  80% {
+    transform: translate(-1px, -1px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move6 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-2px, 1px);
+  }
+  40% {
+    transform: translate(1px, -1px);
+  }
+  60% {
+    transform: translate(-1px, -1px);
+  }
+  80% {
+    transform: translate(1px, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+/* BOBA END */
