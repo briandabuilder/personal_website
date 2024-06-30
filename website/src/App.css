@@ -1,7 +1,7 @@
 /* WHOLE WEBSITE START */
 
 body {
-  background-color: #70ae61;
+  background-color: #5B8142;
 }
 
 /* WHOLE WEBSITE */
@@ -11,7 +11,7 @@ body {
 .nav-link-item {
   color: #fff;
   display: flex;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin-left: 150px;
@@ -175,6 +175,15 @@ body {
 /* SUMMARY END */
 
 /* BOBA START */
+.mouse-hand {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 515px;
+  top: 610px;
+  z-index: 1;
+}
+
 .boba-cup {
   height: 800px;
   width: 800px;
